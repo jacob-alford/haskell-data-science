@@ -3,26 +3,10 @@
 # For more information, please see the documentation at:
 #   https://docs.haskellstack.org/en/stable/lock_files
 
-packages:
+packages: []
+snapshots:
 - completed:
-    hackage: HTTP-4000.3.14@sha256:3c19975fdfd8d057eae58847bda6a79514ad882fd6f8ead72ac0247af34bdfc6,5843
-    pantry-tree:
-      size: 1428
-      sha256: 79d6415c699a628b1fe730562fe6f7bcc29aed659cf8bba3990cf86cd1cf73d9
-  original:
-    hackage: HTTP-4000.3.14@sha256:3c19975fdfd8d057eae58847bda6a79514ad882fd6f8ead72ac0247af34bdfc6,5843
-- completed:
-    hackage: network-3.1.1.1@sha256:b704cb6676c03e98267190df797497587576a2e96094550ea143415239bbe66e,4268
-    pantry-tree:
-      size: 3297
-      sha256: 975170abd872edadd5afea9911eaebfd7683fe6e53f0a898343743d938b7b80d
-  original:
-    hackage: network-3.1.1.1@sha256:b704cb6676c03e98267190df797497587576a2e96094550ea143415239bbe66e,4268
-- completed:
-    hackage: network-uri-2.6.3.0@sha256:d2d9ff3a80d9b2d1ff317a354bc0c56cc109c69a4c2449e5fc712d3ddce83ede,2902
-    pantry-tree:
-      size: 551
-      sha256: 807aa9f8278604645d08882c44b3615f69c9189096471edb5fab26f9ea28cf5f
-  original:
-    hackage: network-uri-2.6.3.0@sha256:d2d9ff3a80d9b2d1ff317a354bc0c56cc109c69a4c2449e5fc712d3ddce83ede,2902
-snapshots: []
+    size: 533252
+    url: https://raw.githubusercontent.com/commercialhaskell/stackage-snapshots/master/lts/16/26.yaml
+    sha256: cdbc5db9c1afe80a5998247939027a0c7db92fa0f20b5cd01596ec3da628b622
+  original: lts-16.26

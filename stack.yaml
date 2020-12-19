@@ -1,9 +1,4 @@
-resolver: ghc-8.8.4
+resolver: lts-16.26
 
 packages:
   - .
-
-extra-deps:
-  - HTTP-4000.3.14@sha256:3c19975fdfd8d057eae58847bda6a79514ad882fd6f8ead72ac0247af34bdfc6,5843
-  - network-3.1.1.1@sha256:b704cb6676c03e98267190df797497587576a2e96094550ea143415239bbe66e,4268
-  - network-uri-2.6.3.0@sha256:d2d9ff3a80d9b2d1ff317a354bc0c56cc109c69a4c2449e5fc712d3ddce83ede,2902
