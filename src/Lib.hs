@@ -5,7 +5,7 @@ module Lib
   )
 where
 
-import Acme.Missiles
+import qualified Network.HTTP as N
 
 someFunc :: IO ()
-someFunc = launchMissiles
+someFunc = print "Hello"

@@ -4,16 +4,16 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: ff47f38ed9c1d2399c462062dd422230837c3c93369638aa5d69ac5047548045
+-- hash: bed681e5c4bf64c59c435739d7fecc465b0b094ea6fd9b7dd8eeb4a1997e7b4d
 
 name:           haskell-data-science
 version:        0.1.0.0
-description:    Please see the README on GitHub at <https://github.com/githubuser/haskell-data-science#readme>
+description:    Please see the README on GitHub at <https://github.com/jacob_alford/haskell-data-science#readme>
 homepage:       https://github.com/githubuser/haskell-data-science#readme
 bug-reports:    https://github.com/githubuser/haskell-data-science/issues
-author:         Author name here
-maintainer:     example@example.com
-copyright:      2020 Author name here
+author:         Jacob Alford
+maintainer:     jacob.alford@me.com
+copyright:      Copyright © 2020 Jacob Alford
 license:        BSD3
 license-file:   LICENSE
 build-type:     Simple
@@ -33,7 +33,7 @@ library
   hs-source-dirs:
       src
   build-depends:
-      acme-missiles
+      HTTP
     , base >=4.7 && <5
     , containers
     , filepath
@@ -48,7 +48,7 @@ executable haskell-data-science-exe
       app
   ghc-options: -threaded -rtsopts -with-rtsopts=-N
   build-depends:
-      acme-missiles
+      HTTP
     , base >=4.7 && <5
     , containers
     , filepath
@@ -65,7 +65,7 @@ test-suite haskell-data-science-test
       test
   ghc-options: -threaded -rtsopts -with-rtsopts=-N
   build-depends:
-      acme-missiles
+      HTTP
     , base >=4.7 && <5
     , containers
     , filepath
